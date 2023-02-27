@@ -1,0 +1,19 @@
+500 - 980 top
+holehieght  163
+screen      816
+gameheight  652
+
+min: gameheight - holehieght
+max: screen + holehieght
+
+400 px -2s 2000
+800 px -1s 1000
+1200px -0.6
+
+height / 400 = x
+x * 2000
+
+height/400 * 2000
+
+1 px 1.25ms
+400

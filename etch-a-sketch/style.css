@@ -1,0 +1,38 @@
+.grid {
+    display: flex;   /* <--- required */
+    gap: 0px;
+    flex-wrap: wrap; 
+}
+
+.column {
+    flex: 1;
+}
+
+.row {
+    gap: 0px;
+    border: 1px solid black;
+    background: gold;
+    text-align: center;    
+    flex: 1;
+    aspect-ratio: 1 / 1;
+    transition:all 1s;
+}
+
+.grid div:hover {
+    background-color: blue;
+  }
+
+#container {
+    width: 400px;
+    height: 400px;
+}
+
+html {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+}
